@@ -48,11 +48,12 @@ body, ul, p {
     margin-right: 30px;
     position: relative;
     cursor: pointer;
+    border-bottom: 3px solid transparent;
 }
 
 .active {
     color: #efad08;
-    border-bottom: 3px solid #efad08;
+    border-bottom: 3px solid #efad08 !important;
 }
 
 .nav > .more {
